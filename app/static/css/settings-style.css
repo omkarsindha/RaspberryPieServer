@@ -1,4 +1,4 @@
-        body {
+       body {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -10,13 +10,15 @@
         }
 
         .container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            padding: 20px;
             background-color: #1A1A1A;
             border: 2px solid #FFFFFF;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+            box-shadow: 0 4px 20px rgba(0, 0, 2, 1);
+            padding: 20px;
+            width: 300px;
+        }
+
+        .container h1 {
+            text-align: center;
         }
 
         .panel {
@@ -25,13 +27,10 @@
             padding: 15px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
-
-        .ref-panel {
-            width: 280px;
-        }
-
-        .status-panel {
-            width: 150px;
+        
+        .sub-container{
+            display: flex;
+            flex-wrap: wrap;
         }
 
         .button {
@@ -59,21 +58,24 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
-        .speed-input {
-            width: 50px;
-            margin-right: 5px;
-            margin-left: 5px;
+        .input-field {
+            width: 80%;
+            margin: 5px 0;
             background-color: #4A4A4A;
             color: #FFFFFF;
             border: 1px solid #FFFFFF;
-            padding: 5px;
-        }
-
-        .delay{
-            padding-top: 15px;
+            padding: 10px;
         }
 
         h3 {
             margin-top: 0;
             color: #FFFFFF;
+        }
+        
+        a{
+            color:#FFFFFF;
+        }
+        
+        .settings{
+            padding-top: 20px;
         }
